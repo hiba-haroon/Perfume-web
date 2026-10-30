@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Scent..</title>
+</head>
+<body>
+
+<!-- nav bar start -->
+   <nav
+   class="flex py-2 px-4 md:px-8 bg-white border-b border-neutral-300 dark:border-neutral-700 dark:bg-neutral-900 min-h-[89px] relative z-20"
+   aria-label="Main navigation">
+   <div class="max-w-7xl mx-auto flex items-center gap-4 w-full">
+      <a href="#"
+         class="min-w-9 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-800 rounded-lg shrink-0">
+         <img src="./images/icons8-perfume-64.png" alt="readymadeui logo" class="h-15 w-auto" />
+      </a>
+      <div id="collapseMenu" tabindex="-1"
+         class="hidden lg:block max-lg:bg-white dark:max-lg:bg-neutral-900 max-lg:border-l max-lg:border-neutral-300 dark:max-lg:border-neutral-700 max-lg:w-1/2 max-lg:fixed max-lg:top-0 max-lg:right-0 max-lg:h-full max-lg:shadow-xl max-lg:overflow-auto max-sm:w-full z-50 outline-none">
+         <ul
+            class="flex flex-col gap-8 font-semibold text-sm text-neutral-900 dark:text-slate-50 lg:flex-row max-lg:p-6 lg:ml-12">
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl font-thin"
+                  aria-current="page">Home</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl gap-8 font-thin">Catigories</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl gap-8 font-thin">Shop</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl gap-8 font-thin">Element</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl gap-8 font-thin">Blog`s</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="text-white hover:underline hover:underline-white rounded-lg text-xl gap-8 font-thin ">Fragrance</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="flex items-center gap-4 ml-auto">
+         <form class="max-w-xs" role="search">
+            <div
+               class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl bg-black dark:bg-black outline-1 -outline-offset-1 outline-neutral-300 dark:outline-neutral-700 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-black">
+               <label for="search" class="sr-only">Search</label>
+               <input type="search" id="search" placeholder="Search..." required
+                  class="text-sm text-neutral-900 dark:text-slate-50 w-full outline-none bg-black" />
+               
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" class="size-4 fill-neutral-400 ml-auto"
+                  aria-hidden="true">
+                  <path
+                     d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+                  </path>
+               </svg>
+            </div>
+         </form>
+      
+<div class="flex items-center gap-5 pr-2">
+            <a href="#"
+               class="flex flex-col items-center justify-center gap-2 text-[13px] font-semibold text-white hove:underline rounded-lg">
+               <div class="relative">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                     class="cursor-pointer fill-current dark:fill-current inline w-5 h-5" viewBox="0 0 64 64"
+                     aria-hidden="true">
+                     <path
+                        d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                        data-original="#000000" />
+                  </svg>
+                  <span
+                     class="absolute left-auto -ml-1 -top-0.5 rounded-full bg-red-500 px-1 py-0 text-xs text-white font-medium">7</span>
+               </div>
+               <span class="text-1xl">Wishlist</span>
+            </a>
+            <a href="#"
+               class="flex flex-col items-center justify-center gap-2 text-[13px] font-semibold text-white rounded-lg">
+               <div class="relative">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                     class="cursor-pointer fill-current dark:fill-current inline w-5 h-5" viewBox="0 0 489 489"
+                     aria-hidden="true">
+                     <path
+                        d="m440.1 422.7-28-315.3c-.6-7-6.5-12.3-13.4-12.3h-57.6C340.3 42.5 297.3 0 244.5 0s-95.8 42.5-96.6 95.1H90.3c-7 0-12.8 5.3-13.4 12.3l-28 315.3c0 .4-.1.8-.1 1.2 0 35.9 32.9 65.1 73.4 65.1h244.6c40.5 0 73.4-29.2 73.4-65.1 0-.4 0-.8-.1-1.2zM244.5 27c37.9 0 68.8 30.4 69.6 68.1H174.9c.8-37.7 31.7-68.1 69.6-68.1zm122.3 435H122.2c-25.4 0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h139.3v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h45.2l26.9 302.3c-.4 20.7-21.1 37.5-46.4 37.5z"
+                        data-original="#000000" />
+                  </svg>
+                  <span
+                     class="absolute left-auto -ml-1 -top-0.5 rounded-full bg-red-500 px-1 py-0 text-xs text-white font-medium">3</span>
+               </div>
+               <span class="text-1xl">Add To Cart</span>
+            </a>
+         </div>
+ </div>
+      </div>
+   </div>
+</nav>
+<!-- nav bar end -->
+<!-- perfume home page start -->
+
+<br><br>
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="h1 title-font text-5xl mb-4 font-bold text-black">Everything`s better <br> with a bit of <br>fragrance</h1>
+      <p class="mb-8 text-xl  ">Discover the perfect fragrance for you with our wide range <br> of Perfume`s</p>
+      <div class="flex justify-center">
+        <button class="bt inline-flex text-white bg-black border-0 py-3 px-6 focus:outline-none rounded text-lg">Shop Now</button>
+     </div>
+    </div>
+     <div>
+      <img class="object-cover object-center rounded" alt="hero" src="./images/handimg-removebg-preview.png">
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="pic object-cover object-center rounded" alt="hero" src="./images/randomhh-cosmetics-4743446.jpg">
+    </div>
+  </div>
+</section>
+
+<!-- perfume home page end -->
+<!-- perfume card start -->
+
+<br><br>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+ <center>
+         <h1 class=" text-5xl font-semibold title-font mb-2 text-black">Top Perfume Collection`s</h1>
+         <p class="text-[#0b146b] text-2xl font-bold font">Perfume`s you won`t find anywher else</p>
+         <hr class="w-38 text-[#0b146b]">
+        <div class="h-10 rounded"></div>
+ </center>
+      </div>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="card xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-60 rounded w-full object-cover object-center mb-6" src="./images/burbuerry.png" alt="content">
+          <h3 class="tracking-widest text-[#0b146b] text-2xl font-bold title-font">BURBURREY</h3>
+          <h1 class="text-gray-500 text-xl mb-4">Excutive Range</h1>
+          <span class="text-black text-1xl">⭐⭐⭐⭐⭐ 624 Reviews</span>
+          <h1 class="text-[#871818] text-xl font-bold">RS.2,550</h1>
+         </div>
+      </div>
+      <div class="card xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-60 rounded w-full object-cover object-center mb-6" src="./images/blue lady.png" alt="content">
+          <h3 class="tracking-widest text-[#0b146b] text-2xl font-bold title-font">BLUE LADY</h3>
+          <h1 class="text-gray-500 text-xl mb-4">Excutive Range</h1>
+          <span class="text-black text-1xl">⭐⭐⭐⭐⭐ 624 Reviews</span>
+          <h1 class="text-[#871818] text-xl font-bold">RS.2,999</h1>
+        </div>
+      </div>
+      <div class="card xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-60 rounded w-full object-cover object-center mb-6" src="./images/chanel.png" alt="content">
+          <h3 class="tracking-widest text-[#0b146b] text-2xl font-bold title-font">CHANEL</h3>
+          <h1 class="text-gray-500 text-xl mb-4">Excutive Range</h1>
+          <span class="text-black text-1xl">⭐⭐⭐⭐⭐ 624 Reviews</span>
+          <h1 class="text-[#871818] text-xl font-bold">RS.3,150</h1>
+        </div>
+      </div>
+      <div class="card xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-60 rounded w-full object-cover object-center mb-6" src="./images/dio.jpg" alt="content">
+          <h3 class="tracking-widest text-[#0b146b] text-2xl font-bold title-font">DIOR</h3>
+          <h1 class="text-gray-500 text-xl mb-4">Excutive Range</h1>
+          <span class="text-black text-1xl">⭐⭐⭐⭐⭐ 624 Reviews</span>
+          <h1 class="text-[#871818] text-xl font-bold">RS.3,580</h1>
+          </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<!-- perfume card end -->
+<!-- gifting start -->
+
+<br><br>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+  <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+ <center>
+         <h1 class=" text-5xl font-semibold title-font mb-2 text-black">Gifting Collection`s</h1>
+         <p class="text-[#0b146b] text-2xl font-bold font">A quit ritual of scent & softness</p>
+         <hr class="w-38 text-[#0b146b]">
+        <div class="h-10 rounded"></div>
+ </center>
+      </div>
+    </div>
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="img object-cover object-center h-full w-full" src="./images/gift2.png">
+        </div>
+        <h2 class="title-font text-3xl font-bold text-[#0b146b] mt-6 mb-3">Floral Vibe</h2>
+        <p class="leading-relaxed text-base mr-70 text-black font-bold">that Gifting aura give coustomer A FLORL VIBE.</p>
+             <h1 class="leading-relaxed text-base ">scent we sold in this gifting bag is CollWater + Ark-e-Gulab</h1>
+          <br>
+          <h1 class="text-[#871818] text-xl font-bold">RS.4,480</h1>
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="img object-cover object-center h-full w-full" src="./images/gift2.webp">
+        </div>
+        <h2 class="title-font text-3xl font-bold text-[#0b146b] mt-6 mb-3">Luxury Gifting</h2>
+        <p class="leading-relaxed text-base mr-70 text-black font-bold">The luxury Gifting bag is for our vanilla coustumer.</p>
+             <h1 class="leading-relaxed text-base ">Scent we sold in this gifting bag is YSL + Dior + Chanda</h1>
+          <br>
+          <h1 class="text-[#871818] text-xl font-bold">RS.5,180</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gifting end -->
+<br><br>
+<!-- video loop start -->
+
+<section">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap"> 
+    <div class="lg:w-2/3 mx-auto">
+      <h1 class="font text-5xl font-bold text-[#0b146b] mb-3">Our Advertisment</h1>
+      <hr class="w-38 text-[#0b146b] mb-15">
+      <div class="flex flex-wrap w-full bg-gray-100 py-50 px-15 relative mb-4">
+         <div class="text-center relative z-10 w-full"></div>
+          <video class="video w-full object-cover h-full object-center absolute inset-0" autoplay muted loop src="https://v.ftcdn.net/11/20/52/14/700_F_1120521450_tKQbNEplS6352UNvdzpTewccO5PWATfu_ST.mp4"></video>
+      </div>
+      <div class="flex flex-wrap -mx-2">
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 py-30 py-20 px-10 px-6 relative">
+             <video class="video w-full object-cover h-full object-center absolute inset-0" autoplay muted loop src="https://v.ftcdn.net/08/34/87/14/700_F_834871412_Izf5zIwhLJGyPDHAQhWpAPVrUZliQ7tm_ST.mp4"></video>
+            <div class="text-center relative z-10 w-full">
+            </div>
+          </div>
+        </div>
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 py-30 py-20 px-10 px-6 relative">
+             <video class="video w-full object-cover h-full object-center absolute inset-0" autoplay muted loop src="https://v.ftcdn.net/13/80/58/35/700_F_1380583548_bdu4otnfEPgGNV0IMYA3RnbjxhCFzyk3_ST.mp4"></video>
+            <div class="text-center relative z-10 w-full">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- video loop end -->
+<!-- footer start -->
+
+<footer class="bg-neutral-200 pt-16 pb-4 px-4 md:px-8">
+   <div class="max-w-7xl mx-auto">
+      <div class="flex justify-between items-center flex-col lg:flex-row flex-wrap gap-x-6 gap-y-8 text-center">
+         <a href="#"
+            class="min-h-12 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-800 rounded-lg">
+          <span class="Scent text-5xl text-[#0b146b] font-bold">Scent..</span>
+         </a>
+
+         <ul class="flex space-x-6 gap-y-3 max-lg:justify-center flex-wrap text-sm text-neutral-400">
+            <li><a href="#"
+                  class="text-black text-1xl font-bold rounded-lg">Terms
+                  of Service</a></li>
+            <li><a href="#"
+                  class="text-black text-1xl font-bold rounded-lg">Privacy
+                  Policy</a></li>
+            <li><a href="#"
+                  class="text-black text-1xl font-bold rounded-lg">Catigories</a>
+            </li>
+            <li><a href="#"
+                  class="text-black text-1xl font-bold rounded-lg">Contact</a>
+            </li>
+         </ul>
+      </div>
+      <hr class="my-8 border-neutral-700" />
+      </div>
+   </div>
+</footer>
+<!-- footer end -->
+
+</body>
+</html>
